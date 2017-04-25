@@ -8,6 +8,9 @@ export {default as GL} from './webgl/webgl-constants';
 
 // WebGL1
 export {createGLContext, getGLExtension, glContextWithState, glGetDebugInfo} from './webgl/context';
+export {getGLParameter, setGLParameter, withGLState} from './webgl/context-state';
+export {getGLContextInfo, getContextLimits} from './webgl/context-limits';
+
 export {default as Buffer} from './webgl/buffer';
 export {default as Shader, VertexShader, FragmentShader} from './webgl/shader';
 export {default as Program} from './webgl/program';
